@@ -4,7 +4,7 @@ MFT stands for "Master File Table," which is a crucial file that stores informat
 
 We have few questions to answer about the secret file. First, we need a tool that help us parse the MFT file to get as much info from it, there are several tools that can do the job but our go tool is `MFTECmd` (cli tool) by Eric Zimmerman (Zimmerman has a wide variation of tools to help DFIR people doing the job). We can find the list of the tools [here](https://ericzimmerman.github.io/#!index.md).
 
-`Note: I am using windows here as the windows forensics tools that are compatible  with windows OS are numerous and powerful`
+`Note: I am using windows here as windows forensics tools that are compatible  with windows OS are numerous and powerful, unlikely in linux and vice versa`
 
 Command: 
 `MFTECmd.exe -f 'path/to/mft/file' --csv 'path/to/output/result'`
