@@ -22,4 +22,15 @@ Since in the description they specified that a secret file was left in the Deskt
 ![image](https://github.com/user-attachments/assets/08d5bbb2-6414-4bbf-9729-201b718558d4)
 
 Notice `secret.txt` file under the folder `important` on the Desktop. We got our file, let's answer the questions and form the flag:
+- What is the MFT entry number of the secret file ?
+  ![image](https://github.com/user-attachments/assets/6812eabf-855f-4d77-a97a-5bc93db5db7e)
 
+- What is the size of the secret file in bytes ?
+![image](https://github.com/user-attachments/assets/63297d55-35df-4c22-94ce-df500df680c7)
+
+- What is the creation time of the secret file in UTC ? (format: YYYY-MM-DD HH:MM:SS)
+![image](https://github.com/user-attachments/assets/50f2ede8-0baf-4c98-bdee-3d8d837a5a00)
+Know that Zimmerman tools show time in UTC by default.
+
+The final flag would be:
+`ATHACKCTF{580_87_2025-01-25 06:41:21}`
