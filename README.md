@@ -1,6 +1,6 @@
 # Chall - MFT 101
 
-> It is about the master file table (MFT )in windows NTFS file system.
+> It is about the master file table (MFT) in windows NTFS file system.
 
 ## Type
 
