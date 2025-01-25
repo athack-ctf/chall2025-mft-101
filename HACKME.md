@@ -1,10 +1,8 @@
-The description of your challenge as seen by participants in CTFd. Try to make it feel within the theme
-of the event...
+A critical server tied to Jester, the rogue AI, was compromised. Investigators recovered the Master File Table (MFT) from the NTFS partition, revealing a secret clue. The attackers left a secret file on the Desktop. Can you analyze the MFT, uncover their activities, and track down the file?
 
----
-If your challenge is a multi-flag one (i.e., it consists of a sequence of sub-challenges each rewarded with
-its own flag), requiring a different description for each sub-challenge, then have your descriptions split as 
-done with this paragraph, and the next one.
+> 1. What is the MFT entry number of the secret file ?
+> 2. What is the size of the secret file in bytes ?
+> 3. What is the creation time of the secret file in UTC ? (format: YYYY-MM-DD HH:MM:SS)
 
----
-Obviously, for each sub-challenge, you should provide its flag value in [solution/FLAGS.md](solution/FLAGS.md).
+<mark>Flag format: ATHACKCTF{answer1_answer2_answer3} </mark>
+<mark>Flag example: ATHACKCTF{1337_101_2024-03-01 22:40:31} </mark>
