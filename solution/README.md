@@ -12,5 +12,14 @@ here we used the output result to be  in csv format so we can deal with it easil
 
 ![image](https://github.com/user-attachments/assets/3712c7fe-29e7-4310-9b41-81289624e517)
 
-Having the parsed data in hand, we can open it using MS Excel as it is a csv file, but for our purpose we will use another tool by Eric zimmerman called `Timeline Explorer` (gui) which was made for the purpose. You can find the tool in the same link above
+Having the parsed data in hand, we can open it using MS Excel as it is a csv file, but for our purpose we will use another tool by Eric zimmerman called `Timeline Explorer` (gui) which was made for the purpose. You can find the tool in the same link above. 
+Opening our csv file we got from `MFTECmd` in timeline Explorer will look like: 
+
+![image](https://github.com/user-attachments/assets/0cc970bf-525c-428f-bc7e-8e08c68a6773)
+
+Since in the description they specified that a secret file was left in the Desktop we can filter by path in Timeline Explorer:
+
+![image](https://github.com/user-attachments/assets/08d5bbb2-6414-4bbf-9729-201b718558d4)
+
+Notice `secret.txt` file under the folder `important` on the Desktop. We got our file, let's answer the questions and form the flag:
 
