@@ -4,8 +4,8 @@
 name: "MFT 101"
 author: ""
 category: <Forensics>
-description: 
-		A critical server tied to Jester, the rogue AI, was compromised. Investigators recovered the Master File Table (MFT) from the NTFS partition, revealing a secret clue. The attackers left a secret file on the Desktop. Can you analyze the MFT, uncover their activities, and track down the file?
+description: |
+	A critical server tied to Jester, the rogue AI, was compromised. Investigators recovered the Master File Table (MFT) from the NTFS partition, revealing a secret clue. The attackers left a secret file on the Desktop. Can you analyze the MFT, uncover their activities, and track down the file?
 
         > 1. What is the MFT entry number of the secret file ?
         > 2. What is the size of the secret file in bytes ?  
