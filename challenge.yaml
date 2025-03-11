@@ -1,9 +1,6 @@
-# Name should be "Challenge name" if only one flag, or
-# "Challenge name - 1", "Challenge name - 2", etc. if multiple ones.
-# Be careful of the spaces before and after the '-'
 name: "MFT 101"
-author: ""
-category: <Forensics>
+author: "Houssem"
+category: Forensics
 description: |
 	A critical server tied to Jester, the rogue AI, was compromised. Investigators recovered the Master File Table (MFT) from the NTFS partition, revealing a secret clue. The attackers left a secret file on the Desktop. Can you analyze the MFT, uncover their activities, and track down the file?
 
@@ -15,31 +12,19 @@ description: |
         <mark>Flag example: ATHACKCTF{1337_101_2024-03-01 22:40:31} </mark>  
     
     
-value: 0
+value: 100
 
-# Let's put the challenges as standard for now and we can script to change
 type: standard
 
-
-# Flags specify answers that your challenge use. You should generally provide at least one.
 flags:
   - type: "static"
     content: "ATHACKCTF{580_87_2025-01-25 06:41:21}"
     data: "case_insensitive"
 
-
-# Available: beginner, interac
 tags:
     - beginner
 
-# Provide paths to files from the same directory that this file is in
 files:
     - offline-artifacts/mft_101_201.zip
 
-# If multiple flag challenge, put here the names of all previous challenges
-# requirements:
-#     - "Warmup"
-#     - "Are you alive"
-
-# Put hidden by default
-state: hidden
+state: visible
