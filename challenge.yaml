@@ -8,8 +8,9 @@ description: |
   2. What is the size of the secret file in bytes ?
   3. What is the creation time of the secret file in UTC ? (format: YYYY-MM-DD HH:MM:SS)
 
-  ## Flag format: `ATHACKCTF{answer1_answer2_answer3}`
-  ## Flag example: `ATHACKCTF{1337_101_2024-03-01 22:40:31}`
+  ## Notes
+  - **Flag format**: `ATHACKCTF{answer1_answer2_answer3}`
+  - **Flag example**: `ATHACKCTF{1337_101_2024-03-01 22:40:31}`
 
 value: 100
 
