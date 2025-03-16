@@ -1,51 +1,50 @@
-# Chall - MFT 101
+# @HACK 2025: MFT 101
 
-> It is about the master file table (MFT) in windows NTFS file system.
+> Authored by [Houssem](https://github.com/Houssem0x1).
 
-## Type
+- **Category**: `Forensics`
+- **Value**: `100 points`
+- **Tags**: `beginner`
 
-- [X] **OFF**line
-- [ ] **ON**line
+> A critical server tied to Jester, the rogue AI, was compromised. Investigators recovered the Master File Table (MFT) from the NTFS partition, revealing a secret clue. The attackers left a secret file on the Desktop. Can you analyze the MFT, uncover their activities, and track down the file?
+> 
+> 1. What is the MFT entry number of the secret file ?
+> 2. What is the size of the secret file in bytes ?
+> 3. What is the creation time of the secret file in UTC ? (format: YYYY-MM-DD HH:MM:SS)
+> 
+> ## Notes
+> - **Flag format**: `ATHACKCTF{answer1_answer2_answer3}`
+> - **Flag example**: `ATHACKCTF{1337_101_2024-03-01 22:40:31}`
+> 
 
-## Designer(s)
+## Files
+- **[Download: mft_101_201.zip](https://github.com/athack-ctf/chall2025-mft-101/raw/refs/heads/main/offline-artifacts/mft_101_201.zip)**
 
-- Houssem0x1
+## Reveal Flag
 
+Did you try solving this challenge?
+<details>
+<summary>
+Yes
+</summary>
 
-## Description
+Did you **REALLY** try solving this challenge?
 
-The objective of this chall is to make players familiar with structure of MFT (Mster File Table) in NTFS filesystem and show its importance.
+<details>
+<summary>
+Yes, I promise!
+</summary>
 
-**IMPORTANT:** This description will **NOT** be shared with participants.
+Flag: `ATHACKCTF{580_87_2025-01-25 06:41:21}`
 
-## Category(ies)
-
-- `forensics`
+</details>
+</details>
 
 
 ---
 
-# Project Structure
+## About @HACK
+[@HACK](https://athackctf.com/) is an annual CTF (Capture The Flag) competition hosted by [HEXPLOIT ALLIANCE](https://hexploit-alliance.com/) and [TECHNATION](https://technationcanada.ca/) at Concordia University in Montreal, Canada.
 
-## 1. HACKME.md
-
-- **[HACKME.md](HACKME.md)**: A teaser or description of the challenge to be shared with participants (in CTFd).
-
-## 2. Source Code
-
-- **[source/README.md](source/README.md)**: Sufficient instructions for building your offline artifacts from source
-  code. If your project includes multiple subprojects, please consult us (Anis and Hugo).
-- **[source/*](source/)**: Your source code.
-
-## 3. Offline Artifacts
-
-- **[offline-artifacts/*](offline-artifacts/)**: All files (properly named) intended for local download by
-  participants (e.g., a binary executable for reverse engineering, a custom-encoded image, etc.). For large files (
-  exceeding 100 MB), please consult us (Anis and Hugo).
-
-## 4. Solution
-
-- **[solution/README.md](solution/README.md)**: A detailed writeup of the working solution.
-- **[solution/FLAGS.md](solution/FLAGS.md)**: A single markdown file listing all (up-to-date) flags.
-- **[solution/*](solution/)**: Any additional files or code necessary for constructing a reproducible solution for the
-  challenge (e.g., `PoC.py`, `requirement.txt`, etc.). 
+---
+[Check more challenges from @HACK 2025](https://github.com/athack-ctf/AtHackCTF-2025-Challenges).
